@@ -1,0 +1,126 @@
+@font-face {
+    
+    font-family: 'CarbonType';
+    src: local('CarbonType Standard'),
+        url('../fonts/carbontype.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+@font-face {
+    
+    font-family: 'Harting';
+    src: url('../fonts/Harting_plain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+body {
+
+    background-color:black;
+    
+    color: white;
+    
+    background-image: url('../content/bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: 'Harting';
+    
+}
+
+nav,section,aside,footer {
+    
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    
+}
+
+nav {
+    
+    background: #a9a9a9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4a4a4a),
+        to(#000000));
+    background: -moz-linear-gradient(top, #4a4a4a, #000000);
+    
+    opacity: 0.8;
+    
+}
+
+section {
+    
+    border: 2px solid;
+    border-color: #a0a0a0;
+    
+    background: rgba(160, 160, 160, 0.3);
+    
+    padding: 20px;
+    
+}
+
+li {
+    
+    display: inline;
+    
+}
+
+a:link, a:visited {
+    
+    color: darkgoldenrod;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    
+    background-color: rgba(50, 50, 45, 0.6);
+    
+}
+
+
+/* Menubar Items */
+
+a.menu {
+    
+    margin: 10px;
+    display: block;
+    float: left;
+    
+    min-width: 10%;
+    max-width: 15%;
+    
+    font-family: 'CarbonType';
+
+}
+
+input.search {
+    
+    float: right;
+    margin: 10px;
+    
+    min-width: 12%;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.menubar {
+    
+    list-style-type:none;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px;
+    
+    min-height: 40px;
+    
+    /*display: table-cell;
+    vertical-align: middle;
+    
+    text-align: center;*/
+    
+}
+
